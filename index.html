@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammad Ebrahim Darabi — AI Engineer</title>
+<meta name="description" content="Portfolio of Mohammad Ebrahim Darabi, AI engineer specializing in agentic systems, RAG, and LLM fine-tuning.">
+
+<!-- ============================================================
+  Personal site for Mohammad Ebrahim Darabi.
+  Experiments and Writing sections are still placeholders —
+  fill in with real side-projects / posts when ready (marked
+  with "EDIT:" comments below).
+============================================================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- grid paper background -->
+<div class="paper-grid" aria-hidden="true"></div>
+
+<!-- vertical index-tab navigation -->
+<nav class="tabnav" aria-label="Section navigation">
+  <a href="#home" class="tab tab-1"><span>HOME</span></a>
+  <a href="#about" class="tab tab-2"><span>ABOUT</span></a>
+  <a href="#skills" class="tab tab-3"><span>SKILLS</span></a>
+  <a href="#work" class="tab tab-4"><span>EXPERIENCE</span></a>
+  <!-- <a href="#experiments" class="tab tab-5"><span>EXPERIMENTS</span></a> -->
+  <!-- <a href="#writing" class="tab tab-6"><span>WRITING</span></a> -->
+  <a href="#contact" class="tab tab-7"><span>CONTACT</span></a>
+</nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow mono">PORTFOLIO</p>
+      <h1 class="display-name">Mohammad Ebrahim Darabi</h1>
+      <p class="role">AI Engineer &amp; Generative AI Engineer</p>
+
+      <!-- signature element: typed build-log ticker -->
+      <div class="ticker mono" id="ticker" aria-label="Quick facts">
+        <span class="ticker-prompt">&gt;</span>
+        <span id="ticker-text"></span><span class="cursor">▌</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-solid">See the work</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download résumé ↓</a>
+      </div>
+    </div>
+    <div class="hero-photo" aria-hidden="true">
+      <img src="assets/headshot.jpg" alt="">
+      <span class="pin" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- perforation divider -->
+  <div class="tear" aria-hidden="true"></div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <p class="section-label mono">01 — ABOUT</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lede">I design and build end-to-end AI agents and chatbots — the kind that hold up in front of real customers, not just in a demo.</p>
+        <p>I work across the generative AI stack: LangChain and LangGraph for agent logic, RAG pipelines backed by vector databases and Elasticsearch, and fine-tuning open- and closed-source LLMs (plus BERT models) on datasets I build myself. Most of what I ship ends up served through FastAPI, containerized with Docker.</p>
+        <p>My background is actually in <span class="hl">Mechanical Engineering</span> (Sahand University of Technology) — I moved into AI engineering and have been building production agents ever since.</p>
+      </div>
+      <div class="about-side">
+        <div class="index-card small">
+          <p class="card-label mono">CURRENTLY</p>
+          <ul class="plain-list">
+            <li>Role — <span>Generative AI Engineer @ Houshyar 24</span></li>
+            <li>Focus — <span>agentic systems &amp; RAG</span></li>
+            <li>Also — <span>fine-tuning LLMs &amp; BERT</span></li>
+          </ul>
+        </div>
+        <div class="index-card small">
+          <p class="card-label mono">AT A GLANCE</p>
+          <ul class="plain-list">
+            <li>Education — <span>B.Sc. Mechanical Engineering</span></li>
+            <li>Languages — <span>English (advanced)</span></li>
+            <li>Reach — <span>Telegram @ebidotpy</span></li>
+            <li>Reach — <span>Call +98 919 090 5178</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tear" aria-hidden="true"></div>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="skills">
+    <p class="section-label mono">02 — SKILLS</p>
+    <h2 class="section-title">What I work with</h2>
+
+    <div class="skills-grid">
+      <div class="index-card skill-card">
+        <p class="card-label mono">PROGRAMMING</p>
+        <div class="stamps">
+          <span class="stamp">PYTHON</span>
+          <span class="stamp">SQL</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">FRAMEWORKS</p>
+        <div class="stamps">
+          <span class="stamp">PYTORCH</span>
+          <span class="stamp">TENSORFLOW</span>
+          <span class="stamp">SKLEARN</span>
+          <span class="stamp">LangChain</span>
+          <span class="stamp">LangGraph</span>
+          <span class="stamp">Dify</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">DATA PROCESSING</p>
+        <div class="stamps">
+          <span class="stamp">NUMPY</span>
+          <span class="stamp">PANDAS</span>
+          <span class="stamp">MATPLOTLIB</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">NLP</p>
+        <div class="stamps">
+          <span class="stamp">TRANSFORMERS</span>
+          <span class="stamp">RAG</span>
+          <span class="stamp">AGENTIC AI</span>
+          <span class="stamp">TEXT GENERATION</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">MLOPS</p>
+        <div class="stamps">
+          <span class="stamp">GIT</span>
+          <span class="stamp">GITHUB</span>
+          <span class="stamp">DOCKER</span>
+          <span class="stamp">LINUX</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">DEPLOYMENT</p>
+        <div class="stamps">
+          <span class="stamp">FASTAPI</span>
+        </div>
+      </div>
+
+      <div class="index-card skill-card">
+        <p class="card-label mono">DATABASES</p>
+        <div class="stamps">
+          <span class="stamp">ELASTICSEARCH</span>
+          <span class="stamp">VECTOR DB</span>
+          <span class="stamp">POSTGRESQL</span>
+          <span class="stamp">REDIS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tear tear-inline" aria-hidden="true"></div>
+
+    <h3 class="subsection-title">Technical Skills</h3>
+    <p class="section-sub tight">The detailed inventory — what's under each category above.</p>
+
+    <div class="tech-grid">
+      <div class="index-card tech-card">
+        <p class="card-label mono">LLM &amp; AGENTS</p>
+        <div class="tech-tags">
+          <span>LangGraph</span><span>tool/function calling</span><span>multi-step agents</span><span>conversation memory</span><span>dynamic routing</span><span>intent classification</span><span>specialist handoff</span><span>ReAct-style workflows</span><span>MCP</span><span>prompt optimization</span><span>guardrails</span><span>agent evaluation</span>
+        </div>
+      </div>
+
+      <div class="index-card tech-card">
+        <p class="card-label mono">RAG &amp; RETRIEVAL</p>
+        <div class="tech-tags">
+          <span>FAISS</span><span>Weaviate</span><span>LangChain</span><span>custom chunking</span><span>reranking</span><span>citation-aware retrieval</span><span>source-grounded Q&amp;A</span><span>vector search</span><span>RAGAS</span><span>DeepEval</span>
+        </div>
+      </div>
+
+      <div class="index-card tech-card">
+        <p class="card-label mono">MODEL ENGINEERING</p>
+        <div class="tech-tags">
+          <span>Hugging Face Transformers</span><span>Qwen</span><span>Gemma</span><span>QLoRA/LoRA</span><span>PEFT</span><span>bitsandbytes</span><span>Unsloth</span><span>W&amp;B</span><span>fine-tuning</span><span>quantization</span>
+        </div>
+      </div>
+
+      <div class="index-card tech-card">
+        <p class="card-label mono">PRODUCTION AI &amp; LLMOPS</p>
+        <div class="tech-tags">
+          <span>FastAPI</span><span>OpenAI-compatible APIs</span><span>streaming responses</span><span>vLLM serving</span><span>token/cost tracking</span><span>caching</span><span>structured logs</span><span>tracing</span><span>health checks</span><span>systemd deployment</span><span>operational runbooks</span><span>latency optimization</span><span>MLflow</span><span>CI/CD for ML</span>
+        </div>
+      </div>
+
+      <div class="index-card tech-card">
+        <p class="card-label mono">DATA &amp; ML</p>
+        <div class="tech-tags">
+          <span>Python</span><span>NumPy</span><span>Pandas</span><span>anomaly detection</span><span>Spacy</span><span>hazm</span><span>matplotlib</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="tear" aria-hidden="true"></div>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="work" class="work">
+    <p class="section-label mono">03 — EXPERIENCE</p>
+    <h2 class="section-title">Where I've built</h2>
+
+    <div class="card-grid">
+      <article class="index-card project">
+        <span class="pin" aria-hidden="true"></span>
+        <p class="card-label mono">AUG 2025 — JUN 2026</p>
+        <h3>Houshyar 24</h3>
+        <p class="card-desc">Design and implement end-to-end AI agents and chatbots for various use cases using both open- and closed-source LLMs. Build and curate datasets, fine-tune LLMs, and train BERT-based models on domain-specific data. Develop retrieval-augmented generation (RAG) systems for customer support and design workflows to automate client tasks. Build comprehensive SMS content moderation systems. Improve and add new features to the Houshyar platform.</p>
+        <div class="card-tags mono"><span>langchain</span><span>langgraph</span><span>unsloth</span><span>elasticsearch</span><span>dify</span><span>pytorch</span><span>fastapi</span></div>
+      </article>
+
+      <article class="index-card project">
+        <span class="pin" aria-hidden="true"></span>
+        <p class="card-label mono">APR 2025 — AUG 2025</p>
+        <h3>Arman Hoosh Sharif</h3>
+        <p class="card-desc">Generative AI Engineer. Designed and implemented end-to-end agents and chatbots for companies' customers, focused on reliability and accuracy in production.</p>
+        <div class="card-tags mono"><span>python</span><span>langchain</span><span>langgraph</span><span>fastapi</span><span>faiss</span></div>
+      </article>
+
+      <article class="index-card project">
+        <span class="pin" aria-hidden="true"></span>
+        <p class="card-label mono">EDUCATION</p>
+        <h3>Sahand University of Technology</h3>
+        <p class="card-desc">B.Sc. in Mechanical Engineering — the foundation before moving into AI engineering.</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="tear" aria-hidden="true"></div>
+
+  <!-- ============ EXPERIMENTS ============ -->
+  
+  <!-- <section id="experiments" class="experiments">
+    <p class="section-label mono">04 — EXPERIMENTS</p>
+    <h2 class="section-title">Small things, still running</h2>
+    <p class="section-sub">Prototypes, weekend builds, and half-finished ideas worth sharing anyway.</p> -->
+
+    <!-- <div class="exp-grid"> -->
+      <!-- EDIT: swap in real experiments. status: running / shipped / archived -->
+      <!-- <div class="index-card exp-card">
+        <div class="exp-head">
+          <h4>[Experiment name]</h4>
+          <span class="status status-running mono"><i></i>RUNNING</span>
+        </div>
+        <p class="card-desc">What you're testing and why — one or two sentences.</p>
+        <a href="#" class="card-link">Peek at it →</a>
+      </div> -->
+
+      <!-- <div class="index-card exp-card">
+        <div class="exp-head">
+          <h4>[Experiment name]</h4>
+          <span class="status status-shipped mono"><i></i>SHIPPED</span>
+        </div>
+        <p class="card-desc">What you're testing and why — one or two sentences.</p>
+        <a href="#" class="card-link">Peek at it →</a>
+      </div> -->
+
+      <!-- <div class="index-card exp-card">
+        <div class="exp-head">
+          <h4>[Experiment name]</h4>
+          <span class="status status-archived mono"><i></i>ARCHIVED</span>
+        </div>
+        <p class="card-desc">What you're testing and why — one or two sentences.</p>
+        <a href="#" class="card-link">Peek at it →</a>
+      </div> -->
+
+      <!-- <div class="index-card exp-card">
+        <div class="exp-head">
+          <h4>[Experiment name]</h4>
+          <span class="status status-running mono"><i></i>RUNNING</span>
+        </div>
+        <p class="card-desc">What you're testing and why — one or two sentences.</p>
+        <a href="#" class="card-link">Peek at it →</a>
+      </div>
+    </div>
+  </section> -->
+<!-- 
+  <div class="tear" aria-hidden="true"></div> -->
+  
+  <!-- ============ WRITING ============ -->
+  
+  <!-- <section id="writing" class="writing">
+    <p class="section-label mono">05 — WRITING &amp; PUBLICATIONS</p>
+    <h2 class="section-title">Notes &amp; papers</h2>
+
+    <ul class="catalog"> -->
+      <!-- EDIT: replace with real posts/papers -->
+      <!-- <li class="catalog-entry">
+        <span class="catalog-date mono">2026.05</span>
+        <div class="catalog-body">
+          <h4>[Article or paper title]</h4>
+          <p>One line on what it covers and why it matters.</p>
+        </div>
+        <a href="#" class="catalog-link">Read →</a>
+      </li> -->
+      <!-- <li class="catalog-entry">
+        <span class="catalog-date mono">2026.02</span>
+        <div class="catalog-body">
+          <h4>[Article or paper title]</h4>
+          <p>One line on what it covers and why it matters.</p>
+        </div>
+        <a href="#" class="catalog-link">Read →</a>
+      </li> -->
+      <!-- <li class="catalog-entry">
+        <span class="catalog-date mono">2025.11</span>
+        <div class="catalog-body">
+          <h4>[Article or paper title]</h4>
+          <p>One line on what it covers and why it matters.</p>
+        </div>
+        <a href="#" class="catalog-link">Read →</a>
+      </li> -->
+    <!-- </ul>
+  </section>
+
+  <div class="tear" aria-hidden="true"></div> -->
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <p class="section-label mono">06 — CONTACT</p>
+    <div class="contact-card index-card">
+      <h2 class="section-title small">Let's talk</h2>
+      <p>Open to work on agentic systems, RAG pipelines, and LLM fine-tuning — reach out about roles or collaborations.</p>
+      <div class="contact-links mono">
+        <a href="mailto:ebid.py@gmail.com">EMAIL →</a>
+        <a href="https://www.github.com/ebidotpy" target="_blank" rel="noopener">GITHUB →</a>
+        <a href="https://www.linkedin.com/in/mohammad-ebrahim-darabi" target="_blank" rel="noopener">LINKEDIN →</a>
+        <a href="https://t.me/ebidotpy" target="_blank" rel="noopener">TELEGRAM →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer mono">
+    <p>© <span id="year"></span> Mohammad Ebrahim Darabi · Built with a text editor and too much coffee.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
